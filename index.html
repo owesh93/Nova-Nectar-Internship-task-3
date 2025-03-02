@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sidhbali Hospital</title>
+        <link rel="stylesheet" href="style.css">
+        <script defer src="script.js"></script>
+    </head>
+<body>
+    <header>
+        <a href="index.html"><img src="images/Sidhbali_logo.png" alt="Sidhbali Hospital Logo" class="logo"></a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#services">Healthcare Services</a></li>
+                <li><a href="#specialists">Our Specialists</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="home-content">
+            <h2>Your Child's Health Is In Good Hands</h2>
+            <p>At Sidhbali Hospital, we prioritize your child's well-being with state-of-the-art medical care and expert pediatricians.</p>
+            <div class="read-more">
+                <p>We offer specialized services in neonatal care, vaccinations, pediatric neurology, cardiology, and much more. Our hospital is equipped with modern medical technology and a compassionate team to ensure the best treatment for your little ones.</p>
+                <p>From emergency pediatric care to regular health check-ups, we are here to provide comprehensive support for every stage of your child's growth.</p>
+            </div>
+            <span class="show-more" onclick="toggleReadMore()">Read More</span>
+        </div>
+    </section>
+
+    <section id="services">
+        <h2>Our Child Healthcare Services</h2>
+        <p>Sidhbali Hospital is dedicated to providing top-quality child healthcare services, including:</p>
+        <ul>
+            <li>Neonatal Intensive Care Unit (NICU)</li>
+            <li>General Pediatrics</li>
+            <li>Vaccination and Immunization</li>
+            <li>Pediatric Neurology</li>
+            <li>Cardiology and Heart Care</li>
+            <li>Growth & Development Monitoring</li>
+            <li>Emergency Pediatric Care</li>
+        </ul>
+    </section>
+
+    <section id="specialists">
+        <h2>Meet Our Specialists</h2>
+        <div class="specialist-cards">
+            <div class="card">
+                <img src="images/doctor1.jpg" alt="Doctor 1">
+                <h3>Dr. Ramesh Verma</h3>
+                <p>Neonatologist</p>
+            </div>
+            <div class="card">
+                <img src="images/doctor2.jpg" alt="Doctor 2">
+                <h3>Dr. Ayesha Khan</h3>
+                <p>Pediatric Cardiologist</p>
+            </div>
+            <div class="card">
+                <img src="images/doctor3.jpg" alt="Doctor 3">
+                <h3>Dr. Rajiv Sharma</h3>
+                <p>Child Neurologist</p>
+            </div>
+            <div class="card">
+                <img src="images/doctor4.jpg" alt="Doctor 4">
+                <h3>Dr. Pooja Bansal</h3>
+                <p>Pediatric Endocrinologist</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing">
+        <h2>Price & Plans</h2>
+        <div class="pricing-cards">
+            <div class="card light">
+                <h3>Basic Plan</h3>
+                <p>₹2,999</p>
+                <button onclick="alert('Purchased Basic Plan!')">Buy Now</button>
+            </div>
+            <div class="card ultra">
+                <h3>Advanced Plan</h3>
+                <p>₹6,499</p>
+                <button onclick="alert('Purchased Advanced Plan!')">Buy Now</button>
+            </div>
+            <div class="card pro">
+                <h3>Premium Plan</h3>
+                <p>₹9,999</p>
+                <button onclick="alert('Purchased Premium Plan!')">Buy Now</button>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="testimonial-section">
+        <h2>A GOOD WORD MEANS A LOT</h2>
+        <p>Patient Testimonials</p>
+        <div class="testimonial-container">
+            <div class="testimonial-card">
+                <h3>MRS. ANITA SHARMA</h3>
+                <p>My son was suffering from severe pneumonia, and the doctors at Sidhbali Hospital provided excellent care. Within days, he recovered fully, and I am grateful for the warm and professional treatment.</p>
+            </div>
+            <div class="testimonial-card">
+                <h3>MR. RAJESH VERMA</h3>
+                <p>Our newborn was underweight and had breathing issues. The neonatal team at Sidhbali Hospital worked tirelessly to ensure her proper growth. We are forever thankful for their efforts.</p>
+            </div>
+            <div class="testimonial-card">
+                <h3>MR. AMIT KAPOOR</h3>
+                <p>My daughter had a severe allergic reaction, and we rushed to Sidhbali Hospital. The pediatricians diagnosed her quickly and treated her with utmost care. The hospital is truly a lifesaver for children.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="contact-container">
+            <h2>Contact Us</h2>
+            <form class="contact-form">
+                <div class="input-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                </div>
+    
+                <div class="input-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+    
+                <div class="input-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="4" placeholder="Write your message" required></textarea>
+                </div>
+    
+                <button type="submit">Send Message</button>
+            </form>
+            
+            <div class="contact-info">
+                <p><strong>Address:</strong> 123, Child Care Street, Dehradun, India</p>
+                <p><strong>Phone:</strong> +91 98765 43210</p>
+                <p><strong>Email:</strong> contact@sidhbalihospital.com</p>
+            </div>
+        </div>
+    </section>
+    
+
+    <footer class="footer">
+        <div class="column">
+            <h3>ABOUT US</h3>
+            <a href="#">About Sidhbali</a>
+            <a href="#">Our Mission</a>
+            <a href="#">Accreditations</a>
+            <a href="#">Awards</a>
+            <a href="#">Our Team</a>
+        </div>
+        <div class="column">
+            <h3>SERVICES</h3>
+            <a href="#">Pediatric Care</a>
+            <a href="#">Neonatal ICU</a>
+            <a href="#">Vaccination</a>
+            <a href="#">Child Nutrition</a>
+        </div>
+        <div class="column">
+            <h3>QUICK LINKS</h3>
+            <a href="#">Find a Doctor</a>
+            <a href="#">Patient Guide</a>
+            <a href="#">Feedback</a>
+        </div>
+        <div class="column">
+            <h3>CONTACT</h3>
+            <p><strong>Emergency No:</strong> +91 1234567890</p>
+            <p><strong>Call:</strong> 0987654321</p>
+            <div class="social-icons">
+                <a href="#"><img src="images/facebook.jpeg" alt="facebook"></a>
+                <a href="#"><img src="images/instagram.png" alt="instagram"></a>
+                <a href="#"><img src="images/youtube.png" alt="youtube"></a>
+            </div>
+        </div>
+        
+    </footer>
+    <div class="copyright">&copy; 2025 Sidhbali Hospital. All rights reserved.</div>
+</body>
+</html>
